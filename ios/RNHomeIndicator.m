@@ -7,6 +7,11 @@
     return self.prefersAutoHidden;
 }
 
+- (UIRectEdge)preferredScreenEdgesDeferringSystemGestures
+{
+  return UIRectEdgeAll;
+}
+
 @end
 
 
