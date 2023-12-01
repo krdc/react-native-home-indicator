@@ -1,13 +1,5 @@
-#import <React/RCTBridgeModule.h>
+#import <React/RCTViewManager.h>
 
-#import <UIKit/UIKit.h>
+@interface RNHomeIndicator : RCTViewManager
 
-
-@interface HomeIndicatorViewController : UIViewController
-@property BOOL prefersAutoHidden;
 @end
-
-@interface RNHomeIndicator : NSObject <RCTBridgeModule>
-@end
-
-  
